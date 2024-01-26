@@ -17,13 +17,6 @@ if (saldoVitoria >= 0){
 
 }
 
-console.log(saldoVitoria)
-
-
-
-
-
-
 
 function resultadoVitoria(vitoria, derrota) {
 
@@ -40,23 +33,23 @@ function calcularNivel(saldoVitoria){
 
         resultado = "Ferro"
 
-    }else if (saldoVitoria >= 10, saldoVitoria < 20 ){
+    }else if (saldoVitoria >= 10 && saldoVitoria < 20 ){
 
         resultado = "Bronze"
 
-    }else if (saldoVitoria >= 20, saldoVitoria < 50 ){
+    }else if (saldoVitoria >= 20 && saldoVitoria < 50 ){
 
         resultado = "Prata"
 
-    }else if (saldoVitoria >= 50, saldoVitoria < 80 ){
+    }else if (saldoVitoria >= 50 && saldoVitoria < 80 ){
 
         resultado = "Ouro"
 
-    }else if (saldoVitoria >= 80, saldoVitoria < 90 ){
+    }else if (saldoVitoria >= 80 && saldoVitoria < 90 ){
 
         resultado = "Diamante"
 
-    }else if (saldoVitoria >= 90, saldoVitoria < 100 ){
+    }else if (saldoVitoria >= 90 && saldoVitoria < 100 ){
 
         resultado = "Lendário"
 
